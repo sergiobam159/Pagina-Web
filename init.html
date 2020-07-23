@@ -1,0 +1,142 @@
+<html>
+	<head>
+		<title>Hanny Modas</title>
+		<!-- CSS only -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="estilo.css" />
+	</head>
+
+	<body>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!--INDICADORES-->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<!--wRAPPER FOR SLIDERS-->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="imagenes/fondoBlusa.jpg" alt="fondo blusa" />
+					<div class="carousel-caption">
+						<h3>Diseños personalizados</h3>
+						<p>
+							Nuestros diseños son personalizados y se ajustan a tus
+							requerimientos, nunca encontrarás a alguien con la misma ropa!
+						</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="imagenes/telas.jpg" alt="telas" />
+					<div class="carousel-caption">
+						<h3>Materiales de primera</h3>
+						<p>
+							La calidad de nuestras telas son las mejores del mercado,
+							cumpliendo con altos estandares para presentar nuestros diseños
+							siempre con una calidad superior
+						</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="imagenes/medidas.jpg" alt="medidas" />
+					<div class="carousel-caption">
+						<h3>Ajustado a tus medidas</h3>
+						<p>
+							Nos cercioramos de tomar tus medidas exactas para que de esta
+							forma que nuestra ropa sea exclusiva para ti.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--CONTROLES-->
+			<a
+				class="left carousel-control"
+				href="#myCarousel"
+				role="button"
+				data-slide="prev"
+			>
+				<span
+					class="glyphicon glyphicon-chevron-left"
+					aria-hidden="true"
+				></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a
+				class="right carousel-control"
+				href="#myCarousel"
+				role="button"
+				data-slide="next"
+			>
+				<span
+					class="glyphicon glyphicon-chevron-right"
+					aria-hidden="true"
+				></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+		<div class="container text-center">
+			<h1>Hanny Modas</h1>
+			<p>diseño y confeccion de ropa</p>
+			<br />
+			<div class="row">
+				<div class="col-sm-4">
+					<p><strong>Blusas</strong></p>
+					<br />
+					<a href="#demo" data-toggle="collapse">
+						<img
+							class="img-circle modelo"
+							src="imagenes/blusaFlor.jpg"
+							alt="Blusa floreada"
+							width="255"
+							height="255"
+						/>
+					</a>
+					<div id="demo" class="collapse">
+						<p>Diseño de blusas a pedido</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<p><strong>Vestidos</strong></p>
+					<br />
+					<a href="#demo2" data-toggle="collapse">
+						<img
+							class="img-circle modelo"
+							src="imagenes/faldaMelon.jpg"
+							alt="Falda verano"
+							width="255"
+							height="255"
+						/>
+					</a>
+					<div id="demo2" class="collapse">
+						<p>Vestidos a tu gusto y para toda ocacion</p>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<p><strong>Moda</strong></p>
+					<br />
+					<a href="#demo3" data-toggle="collapse">
+						<img
+							class="img-circle modelo"
+							src="imagenes/mujerEspalda.jpg"
+							alt="blusa y jean"
+							width="255"
+							height="255"
+						/>
+					</a>
+					<div id="demo3" class="collapse">
+						<p>Diseños de tendencia a tu talla</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
