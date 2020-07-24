@@ -1,13 +1,16 @@
 .container {
 	padding: 80px 120px;
 }
-
+.body {
+	background-color: #f4e2e4;
+	position: relative;
+}
 .modelo {
 	border: 10px solid transparent;
 	margin-bottom: 25px;
 	width: 80%;
-	height: 20%;
-	opacity: 0.7;
+	height: 80%;
+	opacity: 0.85;
 }
 .modelo:hover {
 	border-color: #f1f1f1;
@@ -19,4 +22,40 @@
 	width: 100%;
 
 	margin: auto;
+}
+
+.navbar {
+	margin-bottom: 0;
+	background-color: #403546;
+	border: 0;
+	font-size: 11px !important;
+	letter-spacing: 4px;
+	opacity: 0.75;
+}
+.navbar li a,
+.navbar .navbar-brand {
+	color: #b3a1ba !important;
+}
+.navbar-nav li a:hover {
+	color: #fff !important;
+}
+.navbar-nav li.active a {
+	color: #fff;
+	background-color: #29292c;
+}
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+/*footer*/
+footer {
+	background-color: #403546;
+	color: #b3a1ba;
+	padding: 32px;
+}
+footer a {
+	color: #b3a1ba;
+}
+footer a:hover {
+	color: #f4e2e4;
 }
